@@ -62,7 +62,7 @@ for(i in 1:length(months)){
   
 }
 
-## 20 year climatologies + anomalies ####
+## 30 year climatologies + anomalies ####
 reanlysis_stack=list.files(climdir_intermediate,pattern="reanalysis.grd$",full.names = T) %>% 
   rast(c(.))
 projection_stack=list.files(climdir_intermediate,pattern="projection.grd$",full.names = T) %>% 
